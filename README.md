@@ -1,140 +1,70 @@
-🚨 NOTE: This repo is not accepting more PRs as it has been excluded from the hacktoberfest event.
-To keep contributing, you can find other repos or contribute to one of my repos [here](https://github.com/justEhmadSaeed).
-Best of luck!
-<div align="center">
-	
-  ![Desktop BG 4K Dark Mode-min-2](https://github.com/justEhmadSaeed/Hacktoberfest/assets/46846821/9813ccef-dd05-415d-a8c3-55ffe7338ec2)
+# Getting Started with Create React App
 
-  <p><b><i>Let's Contribute To Open-source</i></b></p>
-</div>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# First Contributions
+## Available Scripts
 
-This project aims to simplify and guide the way, beginners can make their first contribution towards open-source. If you are looking to make your first contribution, follow the steps below.
+In the project directory, you can run:
 
-## Sign-up for Hacktoberfest
+### `npm start`
 
-To participate in Hacktoberfest, signup on [Hacktoberfest Website](http://hacktoberfest.com) using your GitHub or GitLab account.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Fork this repository
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Tip : Complete this process in GitHub (in your browser)
+### `npm test`
 
-```mermaid
-flowchart LR
-    Fork[Fork the project]-->branch[Create a New Branch]
-    branch-->Edit[Edit file]
-    Edit-->commit[Commit the changes]
-    commit -->|Finally|creatpr((Create a Pull Request))
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```
+### `npm run build`
 
-Fork this repository by clicking on the fork button on the top of this page or you can just simply [click here](https://github.com/justEhmadSaeed/Hacktoberfest/fork).
-This will create a copy of this repository in your account.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Install Git
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Install git and setup in your computer. Download and install it from [here](https://git-scm.com/downloads).
-Or you can make changings on the GitHub too.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Clone the repository
+### `npm run eject`
 
-Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Open a terminal and run the following git command:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```
-git clone url_you_just_copied
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-where `url_you_just_copied` is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-For example:
+## Learn More
 
-```
-git clone https://github.com/your-username/Hacktoberfest.git
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-where `your-username` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Create a branch
+### Code Splitting
 
-Change to the repository directory on your computer (if you are not already there):
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```
-cd Hacktoberfest
-```
+### Analyzing the Bundle Size
 
-Now create a branch using the `git switch` command:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```
-git switch -c your-new-branch-name
-```
+### Making a Progressive Web App
 
-For example:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-```
-git switch -c add-ehmad-saeed
-```
+### Advanced Configuration
 
-## Make your changes and commit those changes
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Now open `Contributors.md` file in a text editor, add your name and GitHub profile URL to it. Now, save the file.
+### Deployment
 
-For example:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-```
-- [Your Good Name](https://github.com/ehmadsaeed)
-```
+### `npm run build` fails to minify
 
-If you go to the project directory and execute the command `git status`, you'll see there are some changes.
-
-Add those changes to the branch you just created using the `git add` command:
-
-```
-git add Contributors.md
-```
-
-Now commit those changes using the `git commit` command:
-
-```
-git commit -m "Add your-name to the Contributors list"
-```
-
-replacing `your-name` with your username.
-
-## Push changes to GitHub
-
-Push your changes using the command `git push`:
-
-```
-git push origin -u your-branch-name
-```
-
-replacing `your-branch-name` with the name of the branch you created earlier.
-
-# Create a PR for review
-
-If you go to current repository on GitHub, you'll see a `Compare & pull request` button. Click on that button. Now submit the pull request.
-
-Soon I'll be merging all your changes into the main branch of this project and adding `hactoberfest-accepted` tag to your PR. You will get a notification email once the changes have been merged.
-
-## What's next?
-
-Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll often encounter as a contributor!
-Now you can search for `beginner-friendly` and `good first issue` tags on GitHub and contribute to those projects.
-
-Happy coding! 🎉
-
-## Awesome contributors :star_struck:
-
-<a href="https://github.com/justEhmadSaeed/Hacktoberfest/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=justEhmadSaeed/Hacktoberfest" />
-</a>
-
-Made with [contributors-img](https://contributors-img.web.app).
-
-## 🔑 License & Conduct
-
--   MIT © [Ehmad Saeed](https://github.com/justEhmadSaeed)
--   [Code of Conduct](https://github.com/justEhmadSaeed/Hacktoberfest/blob/main/CODE_OF_CONDUCT.md)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
